@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.slider {
+  width: 300%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  height: auto;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+}
+
+.slide {
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  transition: 0.5s;
+}
+
+.slide__1 {
+  background-image: url(./images/desktop-image-hero-1.jpg);
+  width: 60%;
+  height: 33rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide__2 {
+  background-image: url(./images/desktop-image-hero-2.jpg);
+  width: 60%;
+  height: 33rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide__3 {
+  background-image: url(./images/desktop-image-hero-3.jpg);
+  width: 60%;
+  height: 33rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slider__text {
+  width: 70%;
+}
+
+.sub__innovative {
+  width: 40%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  padding: 3rem;
+  align-items: center;
+  font-weight: 600;
+  color: wheat;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  color: white;
+  margin: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.title {
+  font-size: 37px;
+}
+
+.title__content {
+  font-size: 16px;
+  margin: 20px 0;
+  color: hsl(0, 0%, 63%);
+}
+
+.shop__now {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.shop__now__arrow {
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.btn__container {
+  position: absolute;
+  display: flex;
+  bottom: 2.7%;
+  left: 60%;
+  background-color: black;
+  color: wheat;
+  width: 8rem;
+  justify-content: center;
+  height: 4rem;
+  align-items: center;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  height: 100%;
+  font-size: 45px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+main {
+  display: flex;
+}
+
+.furniture {
+  width: 40%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub__furniture {
+  width: 85%;
+}
+
+.furniture__title {
+  font-size: 20px;
+}
+
+nav a.hover {
+  background: #67573c;
+  transition: 0.5s;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
